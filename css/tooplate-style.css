@@ -21,7 +21,6 @@ body {
   color: #5b5b5b;
   font-size: 14px;
   font-weight: bold;
-  padding: 8px 16px;
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
@@ -66,6 +65,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 10%;
   color: #353535;
   font-size: 2.4em;
   font-weight: bold;
@@ -358,6 +358,11 @@ b, strong {
   max-width: 432px;
   margin-left: 6em;
 }
+
+.timeline-info h3 {
+  color: #ffc200;
+}
+
 .timeline-info small {
   color: #474559;
   font-size: 16px;
@@ -417,15 +422,16 @@ b, strong {
 }
 
 .contact-form {
-  position: relative;
+  justify-content: center;
 }
+
 .contact-form .form-control {
   background: transparent;
   border-radius: 2px;
   outline: none;
   box-shadow: none;
   font-weight: bold;
-  margin: 16px 0;
+  margin: 16px 0px;
 }
 .contact-form .form-control:not(textarea) {
   height: 48px;
@@ -485,6 +491,8 @@ b, strong {
     margin-top: 4em;
   }
 
+
+
   .mobile-mt-2,
   .contact-form {
     margin-top: 2em;
@@ -541,6 +549,7 @@ b, strong {
   .timeline-info small {
     display: block;
     margin: 10px 0 0 0;
+    justify-content: center;
   }
 }
 @media (max-width: 320px) {
@@ -551,6 +560,8 @@ b, strong {
   .about-text {
     text-align: center;
   }
+
+ 
 
   .full-screen {
     padding: 4rem 0;
@@ -569,3 +580,14 @@ b, strong {
     vertical-align: top;
   }
 }
+
+.img-fluid {
+  margin-left: 5%;
+}
+
+
+#resume {
+  margin-left: 23%;
+  margin-bottom: 5%;
+}
+
