@@ -71,6 +71,7 @@ h2 {
   font-weight: bold;
 }
 
+
 h3 {
   color: #484848;
 }
@@ -421,9 +422,8 @@ b, strong {
   width: 100%;
 }
 
-.contact-form {
-  justify-content: center;
-}
+
+
 
 .contact-form .form-control {
   background: transparent;
@@ -431,7 +431,7 @@ b, strong {
   outline: none;
   box-shadow: none;
   font-weight: bold;
-  margin: 16px 0px;
+  margin: 10px 0px;
 }
 .contact-form .form-control:not(textarea) {
   height: 48px;
@@ -440,6 +440,7 @@ b, strong {
   border-color: #ffc200;
 }
 .contact-form .submit-btn {
+  position: relative;
   background: #ffc200;
   border-radius: 50px;
   color: #ffffff;
@@ -585,9 +586,11 @@ b, strong {
   margin-left: 5%;
 }
 
-
-#resume {
-  margin-left: 23%;
-  margin-bottom: 5%;
+.img-chat {
+  margin-top: 20%;
+  margin-left: 15%;
 }
 
+.col-12{
+  margin-left: 0;
+}
