@@ -37,6 +37,7 @@ a {
   font-weight: normal;
   text-decoration: none !important;
   transition: all 0.4s ease;
+  color: #0c0c0d;
 }
 a:hover {
   color: #ffc200 !important;
@@ -493,7 +494,7 @@ b, strong {
   .about-image {
     margin-top: 4em;
   }
-
+  
 
 
   .mobile-mt-2,
@@ -561,7 +562,12 @@ b, strong {
   }
 
   .about-text {
-    text-align: center;
+    color: #5b5b5b;
+
+  }
+
+  .about-text p {
+    color: red;
   }
 
  
@@ -600,3 +606,4 @@ b, strong {
 .timeline-info {
   text-align: justify;
 }
+
