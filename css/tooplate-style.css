@@ -320,6 +320,8 @@ b, strong {
   color: #ffffff;
 }
 
+
+
 .timeline-wrapper {
   position: relative;
   padding: 22px 0;
@@ -593,4 +595,8 @@ b, strong {
 
 .col-12{
   margin-left: 0;
+}
+
+.timeline-info {
+  text-align: justify;
 }
