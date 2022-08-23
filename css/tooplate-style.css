@@ -391,13 +391,16 @@ b, strong {
   font-size: 100px;
   line-height: normal;
 }
+.owl-stage-outer{
+  margin-left: -5%;
+}
 .owl-carousel .owl-nav .owl-prev:before {
   content: '\e833';
-  left: -45px;
+  left: -12.5%;
 }
 .owl-carousel .owl-nav .owl-next:before {
   content: '\e836';
-  right: -45px;
+  right: -2px;
 }
 
 .owl-theme .owl-nav [class*=owl-] {
@@ -424,9 +427,6 @@ b, strong {
 .google-map iframe {
   width: 100%;
 }
-
-
-
 
 .contact-form .form-control {
   background: transparent;
