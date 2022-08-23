@@ -486,6 +486,7 @@ b, strong {
   .full-screen {
     padding-bottom: 4rem;
   }
+  
 
   .color-mode {
     display: none;
@@ -507,6 +508,9 @@ b, strong {
   }
 }
 @media (max-width: 767px) {
+  .img-chat {
+    display: none;
+  }
   h1 {
     font-size: 2.4em;
   }
@@ -530,6 +534,9 @@ b, strong {
   }
 }
 @media (max-width: 580px) {
+  .img-chat {
+    display: none;
+  }
 	.animated-info {
 		min-width: 200px;
 	}
@@ -557,6 +564,9 @@ b, strong {
   }
 }
 @media (max-width: 320px) {
+  .img-chat {
+    display: none;
+  }
   .animated-text {
     margin-top: 0;
   }
