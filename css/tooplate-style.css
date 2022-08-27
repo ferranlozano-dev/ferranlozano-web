@@ -617,3 +617,9 @@ b, strong {
   text-align: justify;
 }
 
+.col-12 .logos-section{
+  margin-top: 8%;
+  margin-left: 40%;
+  padding: .5rem .5rem;
+  color: #474559;
+}
